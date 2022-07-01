@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WebApiDemoEmployee.Model
 {
-    [Table("Product")]
+    [Table("Employee")]
     public class Employee
     {
         
@@ -15,7 +15,7 @@ namespace WebApiDemoEmployee.Model
             [Key]
             public int Id { get; set; }
             public string Name { get; set; }
-            public decimal Salary { get; set; }
+            public Double Salary { get; set; }
 
         
     }
